@@ -35,6 +35,7 @@ Requires hundreds of steps to cool sufficiently—~200–300 iterations to appro
 
 **Premature Convergence**
 Acceptance rate of uphill moves falls to zero and the “energy” plateaus early when cooling is too aggressive.SA depends critically on initial temperature and cooling schedule—poor choices lead to either excessive randomness or premature freezing. If α is set low (e.g. 0.80), temperature plummets rapidly and the algorithm “freezes” early: no uphill moves are accepted, so SA becomes a pure hill‑climber stuck in the first basin it finds.
+
 **Mitigation Strategies**
 * Slower cooling (α closer to 0.99) keeps the acceptance window open longer, but costs more iterations.
 * Adaptive cooling: reduce α only when the recent acceptance rate stays above a threshold, pausing cooling when improvements stagnate.
