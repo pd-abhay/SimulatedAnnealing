@@ -1,4 +1,4 @@
-# SimulatedAnnealing
+# Simulated Annealing
 * Simulated Annealing (SA) is an optimization technique inspired by the physical process of annealing in metallurgy, where materials are heated and then gradually cooled to remove defects and minimize the energy state of the system. SA is often used to find an approximate solution to a problem when dealing with large search spaces, especially when traditional methods like gradient descent might get stuck in local minima.
 
 **Key Concepts of Simulated Annealing:**
